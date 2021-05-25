@@ -1,0 +1,158 @@
+[
+{
+    "model": "filterapp.code",
+    "pk": 1,
+    "fields": {
+        "code_class": "RACE",
+        "code_value": "American Indian or Alaska Native",
+        "code_label": "American Indian or Alaska Native",
+        "code_order": null,
+        "status": null,
+        "status_date": null
+    }
+},
+{
+    "model": "filterapp.code",
+    "pk": 2,
+    "fields": {
+        "code_class": "RACE",
+        "code_value": "Asian",
+        "code_label": "Asian",
+        "code_order": null,
+        "status": null,
+        "status_date": null
+    }
+},
+{
+    "model": "filterapp.code",
+    "pk": 3,
+    "fields": {
+        "code_class": "RACE",
+        "code_value": "Black or African American",
+        "code_label": "Black or African American",
+        "code_order": null,
+        "status": null,
+        "status_date": null
+    }
+},
+{
+    "model": "filterapp.code",
+    "pk": 4,
+    "fields": {
+        "code_class": "RACE",
+        "code_value": "Native Hawaiian or Other Pacific Islander",
+        "code_label": "Native Hawaiian or Other Pacific Islander",
+        "code_order": null,
+        "status": null,
+        "status_date": null
+    }
+},
+{
+    "model": "filterapp.code",
+    "pk": 5,
+    "fields": {
+        "code_class": "RACE",
+        "code_value": "White",
+        "code_label": "White",
+        "code_order": null,
+        "status": null,
+        "status_date": null
+    }
+},
+{
+    "model": "filterapp.code",
+    "pk": 6,
+    "fields": {
+        "code_class": "ETHNICITY",
+        "code_value": "Hispanic or Latino",
+        "code_label": "Hispanic or Latino",
+        "code_order": null,
+        "status": null,
+        "status_date": null
+    }
+},
+{
+    "model": "filterapp.code",
+    "pk": 7,
+    "fields": {
+        "code_class": "ETHNICITY",
+        "code_value": "Not Hispanic or Latino",
+        "code_label": "Not Hispanic or Latino",
+        "code_order": null,
+        "status": null,
+        "status_date": null
+    }
+},
+{
+    "model": "filterapp.code",
+    "pk": 8,
+    "fields": {
+        "code_class": "ONCO_MODALITY",
+        "code_value": "Medical Oncologist",
+        "code_label": "Medical Oncologist",
+        "code_order": null,
+        "status": null,
+        "status_date": null
+    }
+},
+{
+    "model": "filterapp.code",
+    "pk": 9,
+    "fields": {
+        "code_class": "ONCO_MODALITY",
+        "code_value": "Oncology Surgeon",
+        "code_label": "Oncology Surgeon",
+        "code_order": null,
+        "status": null,
+        "status_date": null
+    }
+},
+{
+    "model": "filterapp.code",
+    "pk": 10,
+    "fields": {
+        "code_class": "ONCO_MODALITY",
+        "code_value": "Radiation Oncologist",
+        "code_label": "Radiation Oncologist",
+        "code_order": null,
+        "status": null,
+        "status_date": null
+    }
+},
+{
+    "model": "filterapp.code",
+    "pk": 11,
+    "fields": {
+        "code_class": "ONCO_MODALITY",
+        "code_value": "Other (please specify)",
+        "code_label": "Other (please specify)",
+        "code_order": null,
+        "status": null,
+        "status_date": null
+    }
+},
+{
+    "model": "filterapp.code",
+    "pk": 12,
+    "fields": {
+        "code_class": "ONCO_POPULATION",
+        "code_value": "Adult",
+        "code_label": "Adult",
+        "code_order": null,
+        "status": null,
+        "status_date": null
+    }
+},
+{
+    "model": "filterapp.code",
+    "pk": 13,
+    "fields": {
+        "code_class": "ONCO_POPULATION",
+        "code_value": "Pediatric",
+        "code_label": "Pediatric",
+        "code_order": null,
+        "status": null,
+        "status_date": null
+    }
+}
+]

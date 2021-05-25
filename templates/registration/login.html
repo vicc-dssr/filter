@@ -1,0 +1,40 @@
+{% extends '../base.html' %}
+
+{% block title %}Please Log In{% endblock %}
+
+{% block formtitle%}Please log in{% endblock %}
+
+{% block content %}
+    {% if user.is_authenticated %}
+        {% if user.is_active %}
+        <meta http-equiv="refresh" content="0; url={% url 'index' %}">
+        {% endif %}
+    {% endif %}
+    {{ block.super }}
+
+    <div class="rgtbox fl">
+        <h3 class="my-3">Login</h3>
+
+    <form method="post">
+        {% csrf_token %}
+        <div class="form-group">
+            {{ form.as_p }}
+        </div>
+        <button class="btn btn-info" type="submit">Log In</button>
+     {% comment %}   <a class="btn btn-info" href="{% url 'password_reset' %}">Reset Password</a>{% endcomment %}
+        <p class="or">... or if you don’t have an account,<br>
+		    &nbsp;&nbsp;&nbsp;&nbsp;create one now:
+		</p>
+        <a class="btn btn-info" href="{% url 'register' %}">Sign Up</a>
+
+        </form>
+    </div>
+
+<link rel="stylesheet" href="/static/filterapp/css/login.css">
+<link rel="preload" href="/static/filterapp/js/index.js" as="script">
+<link rel="preload" href="/static/filterapp/js/secondary.js" as="script">
+<link rel="preload" href="/static/filterapp/css/password_change_form.css" as="style">
+<link rel="preload" href="/static/filterapp/css/signup.css" as="style">
+<link rel="preload" href="/static/filterapp/css/common_secondary.css" as="style">
+<link rel="preload" href="/static/filterapp/css/index_pre.css" as="style">
+{% endblock %}

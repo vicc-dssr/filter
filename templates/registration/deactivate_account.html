@@ -1,0 +1,21 @@
+{% extends '../base.html' %}
+
+{% block title %}Deactivate Account{% endblock %}
+
+{% block formtitle%}Deactivate Account{% endblock %}
+
+{% block content %}
+    {{ block.super }}
+
+
+    <div class="rgtbox fl">
+        <h3 class="my-3">Leaving us?</h3>
+
+
+
+    <p>Would you like to deactivate your account?</p>
+    <a class="btn btn-info" href="{% url 'deactivate' %}">Yes</a>
+    <a class="btn btn-info" href="{% url 'index' %}">Cancel</a>
+</div>
+<link rel="stylesheet" href="/static/filterapp/css/common_secondary.css">
+{% endblock %}

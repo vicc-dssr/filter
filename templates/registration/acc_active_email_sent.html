@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}Account Activation Email Sent{% endblock %}
+
+{% block formtitle%}Check your inbox for account activation email.{% endblock %}
+
+{% block content %}
+    {{ block.super }}
+
+    <div class="rgtbox fl">
+        <h3 class="my-3">Thank you!</h3>
+
+
+    <p>Please confirm your email address to complete the registration!</p>
+    <a class="btn btn-info" href="{% url 'login' %}">Back to login</a>
+
+</div>
+<link rel="stylesheet" href="/static/filterapp/css/common_secondary.css">
+{% endblock %}

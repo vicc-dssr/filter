@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block title %}Sign Up{% endblock %}
+
+{% block header %}
+    {{ profile_form.media.css }}
+    <style>
+        input {width: 30%}
+        select {width: 50%}
+    </style>
+{% endblock %}
+
+{% block formtitle%}Please Sign Up Here{% endblock %}
+
+{% block content %}
+    {{ block.super }}
+
+    <div class="rgtbox fl ab">
+        <h3 class="my-3">Create Account</h3>
+        <form method="post">
+            {% csrf_token %}
+            {{ user_form.as_p }}
+            {{ profile_form.as_p }}
+            {{ identity_form.as_p }}
+            <button class="btn btn-info" type="submit">Sign Up</button>
+            <a class="btn btn-info" href="{% url 'login' %}">Back to login</a>
+        </form>
+        <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('#id_institution').select2();
+            });
+        </script>
+    </div>
+<link rel="stylesheet" href="/static/filterapp/css/signup.css">
+<script type="text/javascript" src="/static/filterapp/js/secondary.js"></script>
+
+{% endblock %}
+
+
+
+{% block footer %}
+{{ profile_form.media.js }}
+{% endblock %}

@@ -1,0 +1,19 @@
+.rgtbox {
+    padding-right: 37px;
+    font-size: 15px;
+}
+.rgtbox a.btn{
+    color: #fff;
+    background-color: #69cdcd;
+    border-color: #69cdcd;
+    width: 85%;
+    font-size: 12px;
+    letter-spacing: -0.3px;
+    font-weight: 600;
+    margin-top: 12px;
+    float: left;
+    width: 85%;
+    margin-right: 4px;
+    margin-top: 0px;
+    margin-bottom: 3em;
+}

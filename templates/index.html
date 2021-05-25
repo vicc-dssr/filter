@@ -1,0 +1,146 @@
+{% extends "base.html" %}
+{% block title %}The FILTER App{% endblock %}
+{% block header %}
+{% endblock %}
+{% block content %}
+
+<link rel="stylesheet" href="/static/filterapp/css/index_pre.css">
+<div class="navtop">
+    <ul class="container nav nav-tabs">
+        <li class="nav-item">
+            <a id="game_tab" class="nav-link active" data-toggle="tab" href="#game_board">Game Board</a>
+        </li>
+        <li class="nav-item">
+            <a id="leader_tab" class="nav-link" data-toggle="tab" href="#leader_board">Leader Board <span style="font-size:10px"> [ you rank <strong class="ranking"></strong> of <span class="tcounter"></span> ]</span></a>
+        </li>
+    </ul>
+    <div class="logout_pass" style="float: right;margin-right: 36px;font-size: 12px;font-weight: 100;"><a href="{% url 'logout' %}">logout</a>
+        or <a href="{% url 'password_change' %}">change password</a>
+        or <a href="{% url 'deactivate_account' %}">Deactivate Account</a>
+    </div>
+</div>
+
+<div class="row" style="clear: both;">
+    <div style="float: left;    width: 62%;">
+        <img class="logo" src="/static/filterapp/images/logo2_03.jpg">
+    </div>
+    <div class="loggedin">
+        <div>You logged in as <a href="javascript:void(0)">{{ user.email }}</a></div>
+        <div>You have reviewed <span id="game_cnt" class="text-info"></span> case pairs</div>
+    </div>
+</div>
+
+
+<div class="tab-content">
+    <div class="tab-pane fade show active" id="game_board">
+        <div class="row">
+            <div class="chelp">
+            Choose the ‘case’ below by clicking on the ‘case’ with your mouse, the ‘f’ key (Case I), ‘j’ key (Case II) or the
+            ‘space bar’ to skip.
+            </div>
+            <div class="quest">
+                Which of the following scenarios requires a higher level of survivorship follow up?
+            </div>
+        </div>
+
+
+
+
+        <div class="row">
+
+            <div class="card tcase tcasea case_1" id="player0_link">
+                <h3 id="player0_title">case I</h3>
+                <div id="player0_info" class="caselist"></div>
+            </div>
+            <div class="card case_buttons">
+                <button class="btn btn-info button_tie my-2" id="tie" type="button">Tie</button>
+                <button class="btn btn-info button_skip my-2" id="skip" data-toggle="modal" data-target="#skipModal">Skip</button>
+                    <!-- Modal -->
+                            <div class="modal fade" id="skipModal" tabindex="-1" role="dialog" aria-labelledby="skipModalTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="skipModalTitle">Please select</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container mb-4">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="skipActions" id="skip_game" value="0" checked>
+                                                    <label class="form-check-label" for="skip_game">
+                                                        Skip This Game Only
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="skipActions" id="skip_case1" value="1">
+                                                    <label class="form-check-label" for="skip_case1">
+                                                        Skip All Case I Games
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="skipActions" id="skip_case2" value="2">
+                                                    <label class="form-check-label" for="skip_case2">
+                                                        Skip All Case II Games
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="skipActions" id="skip_cases" value="3">
+                                                    <label class="form-check-label" for="skip_cases">
+                                                        Skip All Case I and II Games
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <button type="button" class="btn btn-outline-info" id="skip_confirm">Confirm</button>
+                                            <button type="button" class="btn btn-outline-info" data-dismiss="modal">Cancel</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                <button class="btn btn-info button_feedback my-2" id="survey_btn">Feedback?</button>
+                <button class="btn btn-info button_nosense" id="nosense_btn" data-container="body" data-toggle="popover" data-placement="top"
+                        data-content="These synthetic cases are generated randomly from a set of risk factors. Many combinations will not realistic. The goal of this process is to determine the contribution of each risk factor to overall risk independently. Please use your best judgement to choose the higher risk cases based on the hypothetical combination of treatments.">
+                    <span style="white-space: normal;">Doesn't Make Sense?</span>
+                </button>
+            </div>
+
+            <div class="card tcase tcasea case_2" id="player1_link">
+                <h3 id="player1_title">case II</h3>
+                 <div id="player1_info" class="caselist"></div>
+            </div>
+
+</div>
+<div class="row">
+    <div class="tcase caserow2">
+        Click or press <img class="keyf" src="/static/filterapp/images/keys_07.jpg" style="height: 26px;"> to choose.
+    </div>
+    <div class="case_buttons" style="margin-top: 16px;text-align: center;">
+        Click or press <img class="keyj" src="/static/filterapp/images/keys_09.jpg" style="height: 26px;"> to 'tie'.
+    </div>
+    <div class="tcase caserow2">
+        Click or press <img class="keyspace" src="/static/filterapp/images/keys_11.jpg" style="height: 26px;"> to choose.
+    </div>
+</div>
+
+
+    </div>
+    <div class="tab-pane" id="leader_board">
+        <div class="container">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">System ID</th>
+                    <th scope="col"># Of Games Played</th>
+                </tr>
+                </thead>
+                <tbody id="leader_board_list">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript" src="/static/filterapp/js/index.js"></script>
+{% endblock %}

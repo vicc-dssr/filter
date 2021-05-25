@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Sign Up Request Received{% endblock %}
+
+{% block formtitle%} Sign Up Request Received {% endblock %}
+
+{% block content %}
+    {{ block.super }}
+
+    <div class="rgtbox fl">
+        <h3 class="my-3">Thank you!</h3>    <p>We have received your request to access the FILTER App. It will take up to 24 hours for your account to be activated. Once you get the confirmation, please use the following link to login. </p>
+    <a class="btn btn-info" href="{% url 'login' %}">Back to Login</a>
+</div>
+<link rel="stylesheet" href="/static/filterapp/css/common_secondary.css">
+{% endblock %}

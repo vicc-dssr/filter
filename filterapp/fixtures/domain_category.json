@@ -1,0 +1,842 @@
+[
+{
+    "model": "filterapp.domaincategory",
+    "pk": 1,
+    "fields": {
+        "domain": 1,
+        "category_name": "breast resection"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 2,
+    "fields": {
+        "domain": 1,
+        "category_name": "lung resection"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 3,
+    "fields": {
+        "domain": 1,
+        "category_name": "kidney resection"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 4,
+    "fields": {
+        "domain": 1,
+        "category_name": "colon resection"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 5,
+    "fields": {
+        "domain": 1,
+        "category_name": "small intestine resection"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 6,
+    "fields": {
+        "domain": 1,
+        "category_name": "extremity resection"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 7,
+    "fields": {
+        "domain": 1,
+        "category_name": "pancreas resection"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 8,
+    "fields": {
+        "domain": 1,
+        "category_name": "liver resection"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 9,
+    "fields": {
+        "domain": 1,
+        "category_name": "brain resection"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 10,
+    "fields": {
+        "domain": 1,
+        "category_name": "larynx resection"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 11,
+    "fields": {
+        "domain": 1,
+        "category_name": "esophagus resection"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 12,
+    "fields": {
+        "domain": 1,
+        "category_name": "lymph node resection"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 13,
+    "fields": {
+        "domain": 1,
+        "category_name": "testicle resection"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 14,
+    "fields": {
+        "domain": 1,
+        "category_name": "ovary resection"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 15,
+    "fields": {
+        "domain": 1,
+        "category_name": "uterus resection"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 16,
+    "fields": {
+        "domain": 1,
+        "category_name": "bladder resection"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 17,
+    "fields": {
+        "domain": 1,
+        "category_name": "prostate resection"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 18,
+    "fields": {
+        "domain": 1,
+        "category_name": "breast removal"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 19,
+    "fields": {
+        "domain": 1,
+        "category_name": "lung removal"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 20,
+    "fields": {
+        "domain": 1,
+        "category_name": "kidney removal"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 21,
+    "fields": {
+        "domain": 1,
+        "category_name": "colon removal"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 22,
+    "fields": {
+        "domain": 1,
+        "category_name": "small intestine removal"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 23,
+    "fields": {
+        "domain": 1,
+        "category_name": "extremity removal"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 24,
+    "fields": {
+        "domain": 1,
+        "category_name": "pancreas removal"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 25,
+    "fields": {
+        "domain": 1,
+        "category_name": "liver removal"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 27,
+    "fields": {
+        "domain": 1,
+        "category_name": "larynx removal"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 28,
+    "fields": {
+        "domain": 1,
+        "category_name": "esophagus removal"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 29,
+    "fields": {
+        "domain": 1,
+        "category_name": "lymph node removal"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 30,
+    "fields": {
+        "domain": 1,
+        "category_name": "testicle removal"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 31,
+    "fields": {
+        "domain": 1,
+        "category_name": "ovary removal"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 32,
+    "fields": {
+        "domain": 1,
+        "category_name": "uterus removal"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 33,
+    "fields": {
+        "domain": 1,
+        "category_name": "bladder removal"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 34,
+    "fields": {
+        "domain": 1,
+        "category_name": "prostate removal"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 35,
+    "fields": {
+        "domain": 1,
+        "category_name": "stomach removal"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 36,
+    "fields": {
+        "domain": 1,
+        "category_name": "thyroid removal"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 37,
+    "fields": {
+        "domain": 2,
+        "category_name": "radiation to the breast"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 38,
+    "fields": {
+        "domain": 2,
+        "category_name": "radiation to the lung"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 39,
+    "fields": {
+        "domain": 2,
+        "category_name": "radiation to the kidney"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 40,
+    "fields": {
+        "domain": 2,
+        "category_name": "radiation to the colon"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 41,
+    "fields": {
+        "domain": 2,
+        "category_name": "radiation to the small intestine"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 42,
+    "fields": {
+        "domain": 2,
+        "category_name": "radiation to the extremity"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 43,
+    "fields": {
+        "domain": 2,
+        "category_name": "radiation to the pancreas"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 44,
+    "fields": {
+        "domain": 2,
+        "category_name": "radiation to the liver"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 45,
+    "fields": {
+        "domain": 2,
+        "category_name": "radiation to the brain"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 46,
+    "fields": {
+        "domain": 2,
+        "category_name": "radiation to the larynx"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 47,
+    "fields": {
+        "domain": 2,
+        "category_name": "radiation to the esophagus"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 48,
+    "fields": {
+        "domain": 2,
+        "category_name": "radiation to the lymph node"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 49,
+    "fields": {
+        "domain": 2,
+        "category_name": "radiation to the testicle"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 50,
+    "fields": {
+        "domain": 2,
+        "category_name": "radiation to the ovary"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 51,
+    "fields": {
+        "domain": 2,
+        "category_name": "radiation to the uterus"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 52,
+    "fields": {
+        "domain": 2,
+        "category_name": "radiation to the bladder"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 53,
+    "fields": {
+        "domain": 2,
+        "category_name": "radiation to the prostate"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 54,
+    "fields": {
+        "domain": 2,
+        "category_name": "radiation to the neck"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 55,
+    "fields": {
+        "domain": 2,
+        "category_name": "radiation to the stomach"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 56,
+    "fields": {
+        "domain": 3,
+        "category_name": "anthracyline (like adriamycin)"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 57,
+    "fields": {
+        "domain": 3,
+        "category_name": "vinca alkaloid (like vincristine)"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 58,
+    "fields": {
+        "domain": 3,
+        "category_name": "tumor antibiotic (like bleomycin)"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 59,
+    "fields": {
+        "domain": 3,
+        "category_name": "alkylating agent (like cyclophosphamide)"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 60,
+    "fields": {
+        "domain": 3,
+        "category_name": "cisplatin"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 61,
+    "fields": {
+        "domain": 3,
+        "category_name": "carboplatin"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 62,
+    "fields": {
+        "domain": 3,
+        "category_name": "oxaliplatin"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 63,
+    "fields": {
+        "domain": 3,
+        "category_name": "microtubule inhibitor (like paclitaxel)"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 64,
+    "fields": {
+        "domain": 3,
+        "category_name": "immunotherapy (like pembroluzimab)"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 65,
+    "fields": {
+        "domain": 3,
+        "category_name": "monocloncal antibody (like blinatumomab)"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 66,
+    "fields": {
+        "domain": 3,
+        "category_name": "tetrahydrofolate reductase inhibitor (like pemetrexed)"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 67,
+    "fields": {
+        "domain": 3,
+        "category_name": "corticosteroids"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 68,
+    "fields": {
+        "domain": 3,
+        "category_name": "antimetabolites (like mercaptopurine or cytarabine)"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 69,
+    "fields": {
+        "domain": 3,
+        "category_name": "topoisomerase I inhibitor (like topotecan)"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 70,
+    "fields": {
+        "domain": 3,
+        "category_name": "topoisomerase II inhibitor (like etoposide)"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 71,
+    "fields": {
+        "domain": 4,
+        "category_name": "Allogeneic transplant (CyTBI conditioning)"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 72,
+    "fields": {
+        "domain": 4,
+        "category_name": "Allogeneic transplant (BuCy conditioning)"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 73,
+    "fields": {
+        "domain": 4,
+        "category_name": "Allogeneic transplant (BuFlu conditioning)"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 74,
+    "fields": {
+        "domain": 4,
+        "category_name": "CAR-T cell therapy"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 76,
+    "fields": {
+        "domain": 5,
+        "category_name": "active autoimmune disease"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 77,
+    "fields": {
+        "domain": 5,
+        "category_name": "traumatic brain injury"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 78,
+    "fields": {
+        "domain": 5,
+        "category_name": "congestive heart failure (CHF)"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 79,
+    "fields": {
+        "domain": 5,
+        "category_name": "COPD or obstructive airway disease"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 80,
+    "fields": {
+        "domain": 5,
+        "category_name": "renal Failure"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 81,
+    "fields": {
+        "domain": 5,
+        "category_name": "obesity"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 82,
+    "fields": {
+        "domain": 5,
+        "category_name": "tobacco use"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 83,
+    "fields": {
+        "domain": 5,
+        "category_name": "substance abuse"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 84,
+    "fields": {
+        "domain": 5,
+        "category_name": "developmental delay"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 85,
+    "fields": {
+        "domain": 5,
+        "category_name": "hepatic impairment"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 86,
+    "fields": {
+        "domain": 5,
+        "category_name": "hypertension"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 87,
+    "fields": {
+        "domain": 5,
+        "category_name": "psychiatric illness"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 88,
+    "fields": {
+        "domain": 5,
+        "category_name": "neuropathy"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 89,
+    "fields": {
+        "domain": 5,
+        "category_name": "stroke"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 90,
+    "fields": {
+        "domain": 6,
+        "category_name": "age 0 - 10 years"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 91,
+    "fields": {
+        "domain": 6,
+        "category_name": "age 11-20 years"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 92,
+    "fields": {
+        "domain": 6,
+        "category_name": "age 21-30 years"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 93,
+    "fields": {
+        "domain": 6,
+        "category_name": "age 31-40 years"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 94,
+    "fields": {
+        "domain": 6,
+        "category_name": "age 40-65 years"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 95,
+    "fields": {
+        "domain": 6,
+        "category_name": "age 65+ years"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 96,
+    "fields": {
+        "domain": 7,
+        "category_name": "American Indian or Alaska Native"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 97,
+    "fields": {
+        "domain": 7,
+        "category_name": "Asian"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 98,
+    "fields": {
+        "domain": 7,
+        "category_name": "Black or African American"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 99,
+    "fields": {
+        "domain": 7,
+        "category_name": "Native Hawaiian or Other Pacific Islander"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 100,
+    "fields": {
+        "domain": 7,
+        "category_name": "White"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 101,
+    "fields": {
+        "domain": 8,
+        "category_name": "low"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 102,
+    "fields": {
+        "domain": 8,
+        "category_name": "medium"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 103,
+    "fields": {
+        "domain": 8,
+        "category_name": "high"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 104,
+    "fields": {
+        "domain": 9,
+        "category_name": "Multiple close family members with cancer"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 105,
+    "fields": {
+        "domain": 9,
+        "category_name": "Inherited cancer gene mutation (e.g., BRCA, Lynch) identified"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 106,
+    "fields": {
+        "domain": 9,
+        "category_name": "Increased risk of treatment toxicity due to inherited gene mutation"
+    }
+},
+{
+    "model": "filterapp.domaincategory",
+    "pk": 107,
+    "fields": {
+        "domain": 9,
+        "category_name": "Multiple primary cancers of paired organs or different organs"
+    }
+}
+]

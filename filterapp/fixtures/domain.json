@@ -1,0 +1,83 @@
+[
+{
+    "model": "filterapp.domain",
+    "pk": 1,
+    "fields": {
+        "domain_name": "Surgery",
+        "probability_without_entry": "0.70",
+        "order_by": 5
+    }
+},
+{
+    "model": "filterapp.domain",
+    "pk": 2,
+    "fields": {
+        "domain_name": "Radiation",
+        "probability_without_entry": "0.70",
+        "order_by": 6
+    }
+},
+{
+    "model": "filterapp.domain",
+    "pk": 3,
+    "fields": {
+        "domain_name": "Drug",
+        "probability_without_entry": "0.40",
+        "order_by": 7
+    }
+},
+{
+    "model": "filterapp.domain",
+    "pk": 4,
+    "fields": {
+        "domain_name": "Immune Modulation",
+        "probability_without_entry": "0.90",
+        "order_by": 8
+    }
+},
+{
+    "model": "filterapp.domain",
+    "pk": 5,
+    "fields": {
+        "domain_name": "Co-morbidity",
+        "probability_without_entry": "0.50",
+        "order_by": 4
+    }
+},
+{
+    "model": "filterapp.domain",
+    "pk": 6,
+    "fields": {
+        "domain_name": "demographics: age",
+        "probability_without_entry": "0.00",
+        "order_by": 1
+    }
+},
+{
+    "model": "filterapp.domain",
+    "pk": 7,
+    "fields": {
+        "domain_name": "demographics: race",
+        "probability_without_entry": "0.00",
+        "order_by": 2
+    }
+},
+{
+    "model": "filterapp.domain",
+    "pk": 8,
+    "fields": {
+        "domain_name": "demographics: ses",
+        "probability_without_entry": "0.00",
+        "order_by": 3
+    }
+},
+{
+    "model": "filterapp.domain",
+    "pk": 9,
+    "fields": {
+        "domain_name": "genetic risks for cancer",
+        "probability_without_entry": "0.90",
+        "order_by": 9
+    }
+}
+]

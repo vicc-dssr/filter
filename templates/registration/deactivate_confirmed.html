@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block formtitle%}Account Deactivated{% endblock %}
+
+{% block content %}
+    {{ block.super }}
+
+
+    <div class="rgtbox fl">
+        <h3 class="my-3">Your account has been deactivated.</h3>
+    <a class="btn btn-info" href="{% url 'login' %}">Back to Login</a>
+</div>
+<link rel="stylesheet" href="/static/filterapp/css/common_secondary.css">
+{% endblock %}

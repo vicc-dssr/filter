@@ -1,0 +1,370 @@
+.nav-tabs .nav-link {
+    text-decoration: none;
+    color: #787878;
+    text-transform: uppercase;
+    background-color: #dfe3dd;
+    border-top-right-radius: 5px;
+    float: left;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+}
+
+.nav-tabs .nav-link.active {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    border-top-left-radius: 5px;
+    float: left;
+    padding: 5px;
+    padding-left: 20px;
+    margin-bottom: 0px;
+    padding-right: 20px;
+    font-size: 13px;
+}
+
+.tab_game {
+    margin-left: 36px;
+}
+
+.navtop {
+    margin-top: -37px;
+}
+
+.tab-content {
+    clear: both;
+}
+
+.tbox {
+    background-color: #ffffff;
+    margin-top: 5em !important;
+}
+
+a {
+    color: #76c5cc !important;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #eeeeee;
+    font-family: proxima-nova, sans-serif;
+}
+
+nav {
+    display: none !important;
+}
+
+.tcase {
+    background-color: #f7f7f7;
+    float: left;
+    width: 38%;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.caserow2 {
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 40px;
+    background-color: #ffffff;
+}
+
+.tcase h3 {
+    color: #76c5cc;
+    text-transform: uppercase;
+    margin: 16px;
+    margin-left: 24px;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.tcase ul {
+    list-style-type: none;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+}
+
+.tcase ul li:before {
+    content: '\2013';
+    position: absolute;
+    margin-left: -20px;
+    color: #999999;
+}
+
+.button_tie {
+    background-color: #ebbd61;
+    border-color: #ebbd61;
+}
+
+.button_skip {
+    background-color: #c77676;
+    border-color: #c77676;
+}
+
+.button_feedback {
+    background-color: #6db8d0;
+    border-color: #6db8d0;
+}
+
+.button_nosense {
+    background-color: #1b6d85;
+    border-color: #1b6d85;
+}
+
+.case_buttons {
+    width: 13%;
+    margin-top: 33px;
+}
+
+.case_buttons .btn {
+    width: 96%;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-size: 12px;
+}
+
+.chelp {
+    color: #76c5cc;
+    margin: auto;
+    width: 88%;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 11px;
+    letter-spacing: -0.3px;
+}
+
+.quest {
+    font-weight: 700;
+    margin: auto;
+    letter-spacing: -0.3px;
+    margin-top: 14px;
+}
+
+.loggedin {
+    float: right;
+    width: 38%;
+    font-size: 13px;
+    line-height: 17px;
+    margin-top: 25px;
+}
+
+.logo {
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.slogo {
+    width: 135px;
+    margin: auto;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.tbox {
+    margin: auto;
+    width: 800px;
+    min-height: 575px;
+    height: auto;
+    border-radius: 30px;
+    background-color: #ffffff;
+    padding-top: 6px;
+    margin-top: 0em;
+    clear: both;
+}
+
+.lftbox {
+    width: 45%;
+    float: left;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: proxima-soft, sans-serif;
+}
+
+.lftbox p {
+    line-height: 21px;
+    letter-spacing: -0.3px;
+    padding-right: 50px;
+    margin-bottom: 1em;
+    padding-bottom: 30px;
+}
+
+.lftbox p span {
+    font-weight: 700;
+}
+
+.rgtbox {
+    width: 54%;
+    float: right;
+    background-color: #ffffff;
+    font-family: proxima-nova, sans-serif;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-top: -6px;
+    margin-right: -15px;
+    padding-left: 40px;
+    height: 575px;
+}
+
+.rgtbox h3 {
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: -0.3px;
+    margin-top: 1em !important;
+}
+
+.form-group p {
+    margin-top: -7px;
+    clear: both;
+}
+
+.form-group label {
+    display: inline-block;
+    font-size: 10px;
+    letter-spacing: -0.3px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.form-group input {
+    display: block;
+    border: none;
+    border-radius: 5px;
+    background-color: #eeeeee !important;
+    padding: 3px;
+    padding-left: 8px;
+    width: 85%;
+}
+
+input[type="text"],
+textarea {
+    background-color: #eeeeee !important;
+}
+
+input[type="text"]:focus {
+    background-color: #eeeeee !important;
+}
+
+input[type="checkbox"] {
+    background-color: #eeeeee !important;
+    float: left;
+    width: 20px;
+    margin-left: -2px;
+    border: 0px;
+    margin-top: 1px;
+    margin-right: 5px;
+}
+
+form button.btn {
+    color: #fff;
+    background-color: #69cdcd;
+    border-color: #69cdcd;
+    width: 85%;
+    font-size: 12px;
+    letter-spacing: -0.3px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.or {
+    margin: auto;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    color: #69cdcd;
+    letter-spacing: -0.3px;
+    font-weight: 600;
+}
+
+.input_50 {
+    width: 48%;
+    float: left;
+}
+
+.input_50 input {
+    display: block;
+    border: none;
+    border-radius: 5px;
+    background-color: #eeeeee !important;
+    padding: 3px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 77%;
+}
+
+.ck_right {
+    float: left;
+    width: 82%;
+    font-size: 11px;
+    line-height: 14px;
+    color: #979797;
+    font-weight: 100
+}
+
+.ck_left {
+    height: 30px;
+    float: left;
+}
+
+form button.create {
+    margin-top: -30px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.effect2 {
+    -webkit-box-shadow: -1px 10px 31px -4px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: -1px 10px 31px -4px rgba(0, 0, 0, 0.29);
+    box-shadow: -1px 10px 31px -4px rgba(0, 0, 0, 0.29);
+}
+
+.card {
+    border-radius: unset;
+    border: unset;
+    word-wrap: unset;
+}
+
+.caselist p {
+    margin-bottom: 6px;
+    margin-left: 23px;
+    letter-spacing: -0.5px;
+}
+
+.caselist p:empty {
+    display: none !important;
+}
+
+.caselist p:before {
+    content: '-- ';
+    margin-left: 2px;
+}
+
+#preload-01 {
+    background: url(/static/filterapp/images/keys_on_07.jpg) no-repeat -9999px -9999px;
+}
+
+#preload-02 {
+    background: url(/static/filterapp/images/keys_on_09.jpg) no-repeat -9999px -9999px;
+}
+
+#preload-03 {
+    background: url(/static/filterapp/images/keys_on_11.jpg) no-repeat -9999px -9999px;
+}
+
+.nav-tabs {
+    border-bottom: 0px solid #dee2e6;
+    width: 50%;
+    float: left;
+    margin-left: 1em;
+}

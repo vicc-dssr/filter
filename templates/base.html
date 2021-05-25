@@ -1,0 +1,67 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'filterapp/css/filter_main.css' %}">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/dex3vbs.css">
+    <script src="{% static 'filterapp/js/filter_main.js' %}"></script>    
+    <script type="text/javascript">
+            window.CSRF_TOKEN = "{{ csrf_token }}"
+            user_id = "{{ request.user.id }}";
+    </script>
+    {% block header %}{% endblock %}
+</head>
+<body>
+{% comment %}<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a href="{% url 'logout' %}"><span class="navbar-brand mb-0 h1">The FILTER App</span></a>
+    {% if user.is_authenticated %}
+        {% if user.is_active %}
+        <ul class="navbar-nav ml-auto flex-column">
+            <li class="nav-item">
+                You logged in as <span class="text-info">{{ user.email }}</span>
+            </li>
+            <li class="nav-item">
+                You have played <span id="game_cnt" class="text-info"></span> game(s)
+            </li>
+            <li class="nav_item">
+                <a class="btn btn-link" href="{% url 'logout' %}">Log Out</a>
+                <a class="btn btn-link" href="{% url 'password_change' %}">Change Password</a>
+                <a class="btn btn-link" href="{% url 'deactivate_account' %}">Deactivate Account</a>
+            </li>
+        </ul>
+        {% endif %}
+    {% endif %}
+
+</nav>{% endcomment %}
+<div class="container tbox">
+    <h3 class="my-3">{% block formtitle %}{% endblock %}</h3>
+
+    {% block content %}
+        <div class="lftbox fl">
+            <img class="logo" src="/static/filterapp/images/logo_03.jpg">
+            <p>
+                <span>Follow-up Interactive Long-Term Expert Ranking (FILTER)</span> is an online crowdsourcing app designed by the Vanderbilt-Ingram Cancer Center to present physician adjudicators with a series of pairs of cancer cases and asking them to choose the case with a higher risk for medical complications in cancer survivorship.
+            </p>
+            <img class="slogo" src="/static/filterapp/images/logo_07.jpg">
+        </div>
+    {% endblock %}
+
+</div>
+
+
+
+<div class="container-fluid">
+    <footer class="footer">
+        <p>© 2021 VUMC</p>
+    </footer>
+</div>
+{% block footer %}{% endblock %}
+</body>
+</html>
